@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+
+<!-- template name: http.error.page.template.html -->
+
+	
+
+
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+	
+
+
+				
+		
+	
+
+	
+	
+	<html lang="en" dir="ltr">
+
+											<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!--favicon-->
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/default/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/default/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/default/favicon-16x16.png">
+<link rel="manifest" href="assets/favicons/default/site.webmanifest">
+<link rel="mask-icon" href="assets/favicons/default/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+  <!-- base -->
+  <base href="https://myid.telstra.com/identity/">
+  <!-- title -->
+  <title>Something went wrong.</title>
+  <!-- includes -->
+  <style>
+                  @import url('assets/fonts/telstra-fonts.css');
+        @import url('assets/css/min/telstra-able.min.css');
+                  @import url('assets/css/min/cnsb-custom.min.css');
+                    </style>
+        <script src="//assets.adobedtm.com/launch-EN150fea03ccaa40d3b4a005dbafdb143c.min.js"></script>
+                    <script type="text/javascript" src="https://www.telstra.com.au/apps/liveperson/import.htm"></script>
+          <script src="/identity/assets/svg4everybody.legacy.js"></script>
+  <script>
+    var isIE = "-ms-scroll-limit" in document.documentElement.style && "-ms-ime-align" in document.documentElement.style;
+    if (isIE) {
+      svg4everybody();
+    }
+  </script>
+</head>
+				<div>
+
+		<header class="t-page-header">
+			<svg width="28px" height="30px" viewBox="0 0 28 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Telstra Logo" role="img" focusable="false">
+    <defs>
+        <polygon id="path-1" points="0.0157894737 0.142713178 0.0157894737 23.3170543 24.7531579 23.3170543 24.7531579 0.142713178 0.0157894737 0.142713178"></polygon>
+    </defs>
+    <g id="NEW-UI-DESIGN-APPROVAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TelstraID-M-Check-1" transform="translate(-277.000000, -21.000000)">
+            <g id="Icons-/-Logo-/-blue" transform="translate(271.000000, 16.000000)">
+                <g id="Primary-Blue-RGB" transform="translate(6.666667, 5.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 6.666667)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M17.4526316,6.10817829 L16.2989474,13.0965116 C16.0607895,14.3537984 15.2576316,14.6943023 14.5444737,14.6943023 L9.20131579,14.6943023 L11.4528947,1.89488372 C9.20473684,0.834844961 6.90947368,0.142713178 5.08157895,0.142713178 C3.34263158,0.142713178 1.93052632,0.62755814 0.991578947,1.78934109 C0.329736842,2.61523256 0,3.63457364 0,4.84709302 C0,8.48600775 2.77605263,13.5352326 7.52736842,17.6541085 C11.7631579,21.2949225 16.4226316,23.3333333 19.8142105,23.3333333 C21.5060526,23.3333333 22.8710526,22.7991085 23.7668421,21.7331008 C24.4721053,20.9080233 24.7531579,19.8379457 24.7531579,18.6256977 C24.7531579,15.0898837 21.9571053,10.132907 17.4526316,6.10817829" id="Fill-1" fill="#0099F8" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M5.78645688,1.47677152 L5,5.60790566 L12.0304729,5.60790566 L9.01241707,21.6666667 L14.6035307,21.6666667 C15.3497835,21.6666667 16.1902129,21.3332107 16.4394228,20.1019478 L18.9962338,5.60790566 L24.0534048,5.60790566 C24.944227,5.60790566 25.6800158,5.03717784 25.8774561,4.13591677 L26.6666667,0 L7.60830516,0 C6.72078747,0 5.9830711,0.574713348 5.78645688,1.47677152 Z" id="Fill-4" fill="#001E82"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+	</header>
+
+		<div role="main" class="  t-message-container ">
+			<div class=" t-err-msg-header-icon  ">
+								<svg width="305px" height="240px" viewBox="0 0 305 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-hidden="true" focusable="false">
+		<g id="MFA-Adapter---MVP3--2SV---desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g id="2.2b-MFA-login-2SV-failed-Desktop" transform="translate(-528.000000, -111.000000)">
+				<rect fill="#FFFFFF" x="0" y="0" width="1360" height="951"></rect>
+				<g id="Illustration-Scene-error" transform="translate(528.000000, 111.000000)">
+					<rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="305" height="240"></rect>
+					<g id="Group-6" transform="translate(5.974476, 30.000100)">
+						<path d="M19.4321158,53.9219 C19.4321158,53.9219 25.1476785,56.0069 28.9653633,63.6529 C31.6965531,69.1249 36.6685145,85.5349 36.6685145,93.4829 C36.2408939,94.0719 34.7427267,94.6609 34.528418,92.5019 C34.3151061,90.3429 32.0673569,73.3679 28.8587074,66.9899 C25.6480643,60.6109 19.4321158,53.9219 19.4321158,53.9219" id="Fill-1" fill="#ECEDEE"></path>
+						<path d="M48.4576849,63.8882 C48.4576849,63.8882 47.0292926,62.9562 46.2428296,62.8852" id="Stroke-3" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M47.3864405,66.397 C47.3864405,66.397 46.7435145,65.823 46.0288199,65.752" id="Stroke-5" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M34.0144759,71.4854 C34.0144759,71.4854 32.871164,72.1304 32.4425466,72.4174" id="Stroke-7" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M33.3715498,69.2637 C33.3715498,69.2637 32.0139293,69.8367 31.5145402,70.1957" id="Stroke-9" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M39.0495338,79.4785 C39.0495338,79.4785 39.2239711,80.8835 40.274582,79.9175 C41.3241961,78.9515 45.7000804,56.3015 48.2378939,53.5805 C44.4750322,58.8475 39.9247106,72.8945 39.0495338,79.4785" id="Fill-11" fill="#F3F4F5"></path>
+						<path d="M21.0451125,66.9024 C13.4954662,69.1674 6.45617363,71.6504 0,74.3264" id="Stroke-13" stroke="#E7E8E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M106.870357,42.1152 C99.2240225,42.6722 91.7511286,43.4062 84.4845691,44.3032" id="Stroke-15" stroke="#E7E8E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M12.7875498,96.4282 C12.9290932,97.7352 20.2793826,98.0052 29.2045916,97.0322 C38.1307974,96.0582 45.2508296,94.2102 45.1092862,92.9032 C44.9677428,91.5962 37.6174534,91.3262 28.6922444,92.3002 C19.7660386,93.2732 12.6460064,95.1212 12.7875498,96.4282" id="Fill-17" fill="#ECEDEE"></path>
+						<line x1="193.085344" y1="19.8823" x2="185.568592" y2="27.4233" id="Stroke-19" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="182.831322" y1="11.4404" x2="176.92637" y2="20.3064" id="Stroke-21" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="171.133257" y1="5.1675" x2="167.065379" y2="15.0195" id="Stroke-23" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="158.439804" y1="1.3042" x2="156.365495" y2="11.7632" id="Stroke-25" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="145.238688" y1="0" x2="145.238688" y2="10.664" id="Stroke-27" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="132.03817" y1="1.3042" x2="134.111482" y2="11.7632" id="Stroke-29" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="119.344717" y1="5.1675" x2="123.412595" y2="15.0195" id="Stroke-31" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="107.646154" y1="11.4404" x2="113.551106" y2="20.3064" id="Stroke-33" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<line x1="97.3926302" y1="19.8823" x2="104.908386" y2="27.4233" id="Stroke-35" stroke="#B2E0FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+						<path d="M27.941865,58.2266 C27.941865,58.2266 30.5773633,57.6226 34.6572026,60.0086 C34.6572026,60.0086 32.6127974,53.6816 26.0569453,52.0616 C28.6286495,49.6156 39.4098714,50.9146 39.4098714,50.9146 C39.4098714,50.9146 32.5121222,41.6816 22.0279421,50.4746" id="Stroke-37" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M25.3670707,48.0259 C25.3670707,48.0259 25.5873601,43.5519 28.82691,40.8929 C28.82691,40.8929 20.7439839,37.5619 19.7611543,50.3129 C19.7611543,50.3129 11.6034695,46.0779 6.32649196,55.7449 L19.175045,53.2129" id="Stroke-39" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M20.5608746,57.2368 L14.1365981,63.9118 C14.1365981,63.9118 10.861164,56.9168 18.0370161,53.5538" id="Stroke-41" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M33.7497299,92.7827 C33.7497299,92.7827 32.3163537,65.9637 20.7446817,57.0197" id="Stroke-43" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M37.3465273,82.7202 C37.3465273,82.7202 32.2280386,57.5812 21.9063344,53.2262" id="Stroke-45" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M56.5862637,42.2149 C43.994881,31.6549 35.7106045,42.7429 35.7106045,42.7429 C35.7106045,42.7429 47.9610868,40.1119 50.4081929,44.4769" id="Stroke-47" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M52.575701,39.2749 C52.575701,39.2749 52.3115531,33.9009 48.4201061,30.7079 C48.4201061,30.7079 58.127791,26.7079 59.3079839,42.0209 C59.3079839,42.0209 69.0884341,35.8859 74.4880161,45.8479 C74.4880161,45.8479 67.8823248,43.1599 62.8974051,45.1979" id="Stroke-49" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M56.8319711,54.2813 L58.2643505,61.5593 C58.2643505,61.5593 62.5445434,53.6303 61.2736431,48.0723 L68.6558296,60.2913 C68.6558296,60.2913 72.2711672,52.2993 65.0983055,45.0673" id="Stroke-51" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M42.5080772,93.0278 C42.5080772,93.0278 44.2295241,60.8178 58.1276913,50.0768" id="Stroke-53" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M39.3790707,75.0596 C39.3790707,75.0596 45.0906463,51.2126 56.7320932,45.5196" id="Stroke-55" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M95.3644727,104.2651 C90.4114502,103.9741 85.3148907,102.1431 81.7503891,97.0001 C75.2493601,87.6211 84.2453408,76.7641 72.5331222,74.0231 C72.5331222,74.0231 58.0319003,72.8801 56.9155016,71.4641" id="Stroke-57" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M70.5582926,94.0161 C70.5582926,94.4741 71.2171672,94.8461 72.0285498,94.8461 C72.8409293,94.8461 73.4988071,94.4741 73.4988071,94.0161 C73.4988071,93.5581 72.8409293,93.1861 72.0285498,93.1861 C71.2171672,93.1861 70.5582926,93.5581 70.5582926,94.0161" id="Fill-59" fill="#F3F4F5"></path>
+						<path d="M56.2557299,96.7876 C56.2557299,97.2476 57.2953762,97.6206 58.5782379,97.6206 C59.8601029,97.6206 60.8997492,97.2476 60.8997492,96.7876 C60.8997492,96.3276 59.8601029,95.9546 58.5782379,95.9546 C57.2953762,95.9546 56.2557299,96.3276 56.2557299,96.7876" id="Fill-61" fill="#F3F4F5"></path>
+						<path d="M63.0078489,100.939 C63.0078489,101.399 64.0474952,101.772 65.3293601,101.772 C66.6122219,101.772 67.6518682,101.399 67.6518682,100.939 C67.6518682,100.479 66.6122219,100.106 65.3293601,100.106 C64.0474952,100.106 63.0078489,100.479 63.0078489,100.939" id="Fill-63" fill="#F3F4F5"></path>
+						<path d="M49.5493633,107.7891 C49.5493633,108.1931 50.1843151,108.5201 50.9677878,108.5201 C51.7502637,108.5201 52.3852154,108.1931 52.3852154,107.7891 C52.3852154,107.3851 51.7502637,107.0581 50.9677878,107.0581 C50.1843151,107.0581 49.5493633,107.3851 49.5493633,107.7891" id="Fill-65" fill="#F3F4F5"></path>
+						<path d="M42.8804759,126.7359 C42.8964244,126.2779 42.250508,125.8839 41.4391254,125.8569 C40.626746,125.8299 39.9569068,126.1789 39.941955,126.6369 C39.9260064,127.0949 40.5719228,127.4879 41.3833055,127.5159 C42.1946881,127.5429 42.8655241,127.1939 42.8804759,126.7359" id="Fill-67" fill="#F3F4F5"></path>
+						<path d="M74.7585434,123.0972 C74.774492,122.6372 73.7478039,122.2292 72.4659389,122.1862 C71.184074,122.1432 70.1324662,122.4812 70.1175145,122.9412 C70.1025627,123.4012 71.128254,123.8092 72.410119,123.8522 C73.6919839,123.8952 74.7435916,123.5572 74.7585434,123.0972" id="Fill-69" fill="#F3F4F5"></path>
+						<path d="M63.5203955,117.2783 C63.5353473,116.8183 62.5086592,116.4103 61.227791,116.3673 C59.945926,116.3243 58.8943183,116.6623 58.8793666,117.1223 C58.863418,117.5823 59.8901061,117.9903 61.1719711,118.0333 C62.453836,118.0763 63.5044469,117.7383 63.5203955,117.2783" id="Fill-71" fill="#F3F4F5"></path>
+						<path d="M80.6507363,112.585 C80.6646913,112.181 80.0407042,111.833 79.2582283,111.807 C78.4747556,111.78 77.829836,112.086 77.8168778,112.49 C77.8029228,112.893 78.42691,113.242 79.2093859,113.268 C79.9918617,113.294 80.6367814,112.988 80.6507363,112.585" id="Fill-73" fill="#F3F4F5"></path>
+						<path d="M131.763158,150.6475 C131.763158,150.6475 149.428174,152.8845 158.67335,137.9575 L160.395794,135.3095 L154.18483,135.3095 C154.18483,135.3095 149.799974,145.1585 139.871003,145.1585 C139.871003,145.1585 131.763158,145.4285 131.763158,150.6475" id="Fill-75" fill="#B2E0FD"></path>
+						<path d="M162.52383,129.4033 C161.681547,128.0073 160.320936,126.7853 158.441997,125.7333 C152.958685,122.6663 136.876563,109.5303 130.610775,85.7153 C124.342994,61.8993 125.60891,53.9333 122.388299,52.3933 C120.241225,51.3673 118.755019,51.3673 117.933669,52.3933 L117.933669,68.2623 C122.690325,68.6683 126.841932,74.3693 125.750453,81.9633 C124.616113,89.8413 121.743379,98.3093 121.743379,101.3173 C121.743379,104.0793 129.83727,118.5713 125.752447,133.8203 L161.293797,133.8203 C162.716209,133.8203 163.514633,131.0453 162.52383,129.4033" id="Fill-77" fill="#B2E0FD"></path>
+						<path d="M108.221399,97.564 C108.700852,95.913 109.340788,93.928 110.013617,91.87 C111.667283,86.813 112.789662,82.938 110.013617,81.224 C109.958794,81.189 109.908955,81.144 109.861109,81.102 C107.917379,86.687 105.844068,92.851 105.844068,92.851 C105.844068,92.851 103.12783,99.965 103.676061,106.131 C103.951174,109.247 104.03291,111.741 103.619244,113.877 C103.607283,113.855 103.600305,113.834 103.600305,113.834 L101.182106,118.669 L68.225418,147.675 L68.8035531,149.165 C70.0435531,151.922 74.194164,151.31 76.5146785,150.097 C76.5176688,150.096 76.5186656,150.094 76.5206592,150.094 C76.8745177,149.908 77.1865113,149.71 77.437701,149.508 C77.5204341,149.441 77.6081511,149.372 77.6898875,149.304 C84.3912701,144.645 102.202814,130.522 105.644711,127.773 C109.315868,124.844 111.851688,120.741 110.559855,114.887 C109.267026,109.033 106.555772,103.306 108.221399,97.564" id="Fill-79" fill="#B2E0FD"></path>
+						<path d="M173.960862,44.188 C173.960862,44.188 174.278836,55.525 178.00083,64.371 C178.00083,64.371 174.728386,65.403 173.199318,66.882 L173.199318,44.348 L173.960862,44.188 Z" id="Fill-81" fill="#B2E0FD"></path>
+						<path d="M182.510058,46.1026 C179.835685,43.4196 175.832598,42.8916 172.628932,44.5076 L172.628932,68.1436 L182.510058,58.2306 C185.848289,54.8816 185.848289,49.4516 182.510058,46.1026 Z" id="Stroke-83" stroke="#5E50BF" stroke-width="2"></path>
+						<path d="M184.287125,66.564 L184.287125,66.564 C187.625357,69.913 187.625357,75.342 184.287125,78.692 L174.314296,88.697 C170.976064,92.045 165.564521,92.045 162.225293,88.697 C158.888058,85.347 158.888058,79.918 162.225293,76.569 L172.199119,66.564 C175.53735,63.215 180.948894,63.215 184.287125,66.564" id="Fill-85" fill="#FFFFFF"></path>
+						<path d="M176.575926,64.0523 C176.575926,64.0523 173.393193,74.9543 177.115186,82.8833 C177.115186,82.8833 174.729881,83.5633 173.199817,84.8883 L173.199817,64.6883 L176.575926,64.0523 Z" id="Fill-87" fill="#B2E0FD"></path>
+						<path d="M184.287125,66.564 C181.087447,63.354 175.9869,63.23 172.628733,66.174 L172.628733,90 C173.228797,89.642 173.798958,89.214 174.314296,88.697 L184.287125,78.692 C187.625357,75.342 187.625357,69.913 184.287125,66.564 Z" id="Stroke-89" stroke="#5E50BF" stroke-width="2"></path>
+						<path d="M182.873685,85.3374 L182.873685,85.3374 C185.777318,88.2514 185.777318,92.9744 182.873685,95.8884 L174.196675,104.5914 C171.293042,107.5054 166.584232,107.5054 163.680598,104.5914 C160.777961,101.6794 160.777961,96.9564 163.680598,94.0414 L172.356611,85.3374 C175.261241,82.4244 179.969055,82.4244 182.873685,85.3374" id="Fill-91" fill="#FFFFFF"></path>
+						<path d="M176.575926,83.582 C176.575926,83.582 173.393193,94.484 177.115186,102.412 C177.115186,102.412 174.729881,105.276 173.199817,106.6 L173.199817,84.218 L176.575926,83.582 Z" id="Fill-93" fill="#B2E0FD"></path>
+						<path d="M182.873685,85.3374 C180.056772,82.5124 175.548315,82.4364 172.628733,85.0904 L172.628733,105.7854 C173.188926,105.4634 173.718219,105.0714 174.196675,104.5914 L182.873685,95.8884 C185.777318,92.9744 185.777318,88.2514 182.873685,85.3374 Z" id="Stroke-95" stroke="#5E50BF" stroke-width="2"></path>
+						<path d="M161.312338,134.8472 C150.476293,153.2142 132.336807,150.9352 132.336807,150.9352 C132.336807,150.9352 120.021534,163.2902 116.854749,166.4672" id="Stroke-97" stroke="#5E50BF" stroke-width="2" stroke-linecap="round"></path>
+						<path d="M148.577617,125.4487 C148.577617,127.5737 146.862151,129.2947 144.748968,129.2947 C142.633791,129.2947 140.918325,127.5737 140.918325,125.4487 C140.918325,123.3257 142.633791,121.6027 144.748968,121.6027 C146.862151,121.6027 148.577617,123.3257 148.577617,125.4487" id="Fill-99" fill="#FFFFFF"></path>
+						<path d="M148.577617,125.4487 C148.577617,127.5737 146.862151,129.2947 144.748968,129.2947 C142.633791,129.2947 140.918325,127.5737 140.918325,125.4487 C140.918325,123.3257 142.633791,121.6027 144.748968,121.6027 C146.862151,121.6027 148.577617,123.3257 148.577617,125.4487" id="Stroke-101" stroke="#5E50BF" stroke-width="2"></path>
+						<path d="M148.577617,125.4487 C148.577617,127.5737 146.862151,129.2947 144.748968,129.2947 C142.633791,129.2947 140.918325,127.5737 140.918325,125.4487 C140.918325,123.3257 142.633791,121.6027 144.748968,121.6027 C146.862151,121.6027 148.577617,123.3257 148.577617,125.4487 Z" id="Stroke-103" stroke="#5E50BF" stroke-width="1.2"></path>
+						<line x1="137.178788" y1="37.0064" x2="152.316955" y2="37.0064" id="Stroke-105" stroke="#5E50BF" stroke-width="2" stroke-linecap="round"></line>
+						<path d="M116.867408,68.211 L116.867408,35.679 C116.867408,32.881 119.149048,30.593 121.936058,30.593 L167.559884,30.593 C170.347891,30.593 172.628534,32.881 172.628534,35.679 L172.628534,129.762 C172.628534,132.559 170.347891,134.847 167.559884,134.847 L125.558373,134.847" id="Stroke-107" stroke="#5E50BF" stroke-width="2" stroke-linecap="round"></path>
+						<path d="M67.6530643,148.084 C100.471199,120.592 100.232968,120.088 101.82583,117.258 C104.217116,113.011 103.047887,110.003 103.047887,104.325 C103.047887,98.647 106.852614,88.966 108.90599,83.232 C110.96136,77.497 112.418659,68.224 117.394608,68.224 C122.371553,68.224 126.882003,74.083 125.750653,81.963 C124.616312,89.841 121.743579,98.309 121.743579,101.317 C121.743579,104.325 131.349592,121.236 124.3721,137.892" id="Stroke-109" stroke="#5E50BF" stroke-width="2" stroke-linecap="round"></path>
+						<path d="M230.228228,30.8281 C230.228228,30.8281 224.163791,36.4011 225.358936,42.3121 C226.201219,46.4831 229.493598,47.5201 229.493598,47.5201 L218.037553,45.0561 C218.037553,45.0561 223.775045,31.0831 230.228228,30.8281" id="Fill-115" fill="#F3F4F5"></path>
+						<path d="M217.960701,45.4487 C220.153627,34.6577 230.649768,27.6937 241.406071,29.8937 C252.162373,32.0937 259.103981,42.6237 256.911055,53.4147" id="Stroke-117" stroke="#E7E8E9" stroke-width="2" stroke-linecap="round"></path>
+						<path d="M193.019656,133.0952 C193.019656,133.0952 208.501714,126.2232 223.701682,143.8262 C238.90165,161.4282 238.338466,166.3232 242.09136,168.3002 C234.303482,163.9702 223.325894,155.9692 215.538016,147.5912 C207.750138,139.2132 203.903547,134.9772 194.802904,135.6372 C185.701264,136.2952 193.019656,133.0952 193.019656,133.0952" id="Fill-119" fill="#ECEDEE"></path>
+						<path d="M277.667,59.9014 C253.522884,51.3554 222.879733,45.2444 188.706968,42.6544" id="Stroke-121" stroke="#E7E8E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M282.272244,76.5 C260.625074,66.49 224.055042,57.41 191.015621,54.289" id="Stroke-123" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M181.863743,137.3384 C181.863743,137.3384 197.555125,132.4354 206.815254,139.6614 C216.076379,146.8864 233.053614,172.1774 261.349338,172.1774" id="Stroke-125" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M191.895881,123.4028 C191.895881,123.4028 205.5299,121.4348 214.790029,128.6608 C224.050158,135.8868 255.175752,158.7578 288.873051,153.0808" id="Stroke-127" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M168.685553,158.0161 C168.685553,158.5681 169.553752,159.0161 170.624299,159.0161 C171.695842,159.0161 172.564042,158.5681 172.564042,158.0161 C172.564042,157.4641 171.695842,157.0161 170.624299,157.0161 C169.553752,157.0161 168.685553,157.4641 168.685553,158.0161" id="Fill-129" fill="#ECEDEE"></path>
+						<path d="M164.548997,178.9282 C164.569929,178.3022 163.686778,177.7632 162.57636,177.7262 C161.466939,177.6892 160.549897,178.1672 160.528965,178.7932 C160.508032,179.4192 161.391183,179.9572 162.501601,179.9942 C163.611023,180.0322 164.528064,179.5542 164.548997,178.9282" id="Fill-131" fill="#ECEDEE"></path>
+						<path d="M203.162238,178.9522 C203.18317,178.3232 201.778701,177.7652 200.026354,177.7062 C198.274006,177.6472 196.835646,178.1102 196.814714,178.7392 C196.793781,179.3682 198.198251,179.9262 199.950598,179.9852 C201.702945,180.0442 203.141305,179.5812 203.162238,178.9522" id="Fill-133" fill="#ECEDEE"></path>
+						<path d="M187.792418,170.9942 C187.81335,170.3652 186.409878,169.8072 184.656534,169.7482 C182.904186,169.6892 181.465826,170.1522 181.444894,170.7812 C181.423961,171.4102 182.828431,171.9682 184.580778,172.0262 C186.333125,172.0852 187.771486,171.6232 187.792418,170.9942" id="Fill-135" fill="#ECEDEE"></path>
+						<path d="M211.220244,164.5752 C211.239183,164.0232 210.385936,163.5462 209.315389,163.5112 C208.244842,163.4742 207.362688,163.8932 207.343749,164.4452 C207.325807,164.9962 208.178058,165.4732 209.248605,165.5092 C210.319151,165.5452 211.201305,165.1272 211.220244,164.5752" id="Fill-137" fill="#ECEDEE"></path>
+						<path d="M242.138122,79.9999 C236.434079,82.1288407 234.09237,84.1008282 235.112995,85.9158624 C236.643932,88.6384136 243.978562,93.327487 251.200085,94.4714449 C239.559098,92.6630951 234.134202,90 219.025905,81.3223565 C226.413077,81.1986105 234.117149,80.7577916 242.138122,79.9999 Z" id="Path" fill="#ECEDEE"></path>
+						<path d="M218.789511,81.1158309 C225.866286,81.6983 235.69242,79.9999 240.384466,79.9999 C261.84646,79.9999 293.118158,101.6418 293.118158,101.6418" id="Stroke-139" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M198.114521,75.2647 C219.590494,76.5 230.228228,92.72205 251.200085,95.091" id="Stroke-141" stroke="#D3D4D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M139.0418,73.8708 C138.4478,76.029 138.8834,78.6096 140.6852,79.9824 C141.1604,80.3454 141.4838,80.6424 141.464,81.2298 C140.54,81.1704 130.64,81.144 130.64,81.0714 C130.5278,77.9628 134.6,73.8114 136.1114,71.1714 C138.2366,67.4292 140.9294,63.3306 143.1602,59.6478 C143.6222,58.8822 144.038,58.011 144.6518,57.0078 C145.614233,58.7774062 145.614233,60.9141938 144.6518,62.6838 C142.388,66.4128 140.1902,69.6534 139.0286,73.9038" id="☂️-Shade" fill="#B2E0FD"></path>
+						<polygon id="Stroke-3" stroke="#5E50BF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" points="129.98 81.0912 144.6518 56.7702 159.02 81.0912"></polygon>
+						<line x1="144.5" y1="73.6266" x2="144.5" y2="65.337" id="Stroke-5" stroke="#5E50BF" stroke-width="1.98" stroke-linecap="round" stroke-linejoin="round"></line>
+						<path d="M145.628077,76.5702 C145.628077,77.1777132 145.13559,77.6702 144.528077,77.6702 C143.920563,77.6702 143.428077,77.1777132 143.428077,76.5702 C143.428077,75.9626868 143.920563,75.4702 144.528077,75.4702 C145.13559,75.4702 145.628077,75.9626868 145.628077,76.5702" id="Fill-7" fill="#5E50BF"></path>
+					</g>
+				</g>
+			</g>
+		</g>
+	</svg>
+						</div>
+
+			<h1 class="t-able-heading-b " id="errorMsgId" tabindex="-1">Something went wrong.</h1>
+			
+							<h2 class="t-able-heading-b  t-able-spacing-4x-mb ">please try again</h2>
+			
+			<p class="t-able-text-bodyshort">Please try again in a few minutes.</p>
+			
+			<p class="t-able-text-bodyshort t-able-inline-link ">For help with your enquiry, go to <a href="https://www.telstra.com.au/support" target="_blank">Telstra Support</a>. Or, you can download the My Telstra app, go to Get help, then tap the speech bubble to chat to us.</p>
+		</div>
+		
+<footer class="t-footer">
+	<div class="t-footer-content">
+		<p class="t-footer-copyright">Copyright © 2022 Telstra</p>
+				<a class="t-footer-privacy" href="https://www.telstra.com.au/privacy/privacy-statement" target="_blank">Privacy</a>
+							<a class="t-footer-terms" href="https://www.telstra.com.au/terms-of-use" target="_blank">Terms of use</a>
+			</div>
+</footer>
+	</div>
+
+
+
+  <script src="/identity/assets/js/mytelstra-login.min.js?c04835e"></script>
+
+
+
+<script>
+    var subDivUnit = "TR";
+    	var secondCat = "";
+		    window.digitalData = {};
+    window.digitalData.page = {};
+
+    window.digitalData.page.pageInfo = {
+		pageName: "nulltitle",
+		destinationURL: window.location.href,
+		referringURL: document.referrer,
+		sysEnv: "ios-webview",
+		deployEnv: "production",
+    };
+    window.digitalData.page.attributes = {
+        division : "TD",
+        subDivision : "TR",
+        subDivisionUnit : subDivUnit
+    };
+
+	
+    window.digitalData.page.category = {
+        primaryCategory : "identity",
+        secondaryCategory : secondCat,
+        tertiaryCategory: "",
+        pageType : "service"
+    };
+
+            function updateProfileInfo(data){
+      if(window.digitalData?.user?.length){
+        window.digitalData.user[0].profile[0].profileInfo = {...window.digitalData.user[0].profile[0].profileInfo,...data}
+      }
+    }
+
+    function loadAnalyticEvents(eventAction, eventType, eventCategory, eventName) {
+        let eventData = null;
+        eventData = {
+                     "eventInfo": {
+                        "eventAction": eventAction,
+                        "eventType": eventType,
+                        "eventCategory": eventCategory,
+                        "eventName": eventName
+                     },
+                     "attributes": {}
+                    }
+
+        const analytics = window.digitalData;
+        if (!("event" in analytics))
+            analytics.event = [];
+
+        if (eventData) {
+            analytics.event.push(eventData);
+        } else {
+            analytics.event.push(
+                {
+                    "eventInfo": {
+                        "eventAction": "error"
+                    }
+                }
+            )
+        }
+        return (window.digitalData = analytics);
+    }
+
+</script>
+<script type="text/javascript">
+  _satellite.pageBottom();
+</script>
+<script>
+	document.getElementById('errorMsgId').focus();
+	loadAnalyticEvents('error', 'technical', $errorMessageKey, Please check the URL and try entering it again, or go to our website. If you continue to experience issues, you can visit our <a href="https://www.telstra.com.au/support" target="_blank">help and support pages</a>.)
+</script>
+		
+		
+
+  <script src="/identity/assets/js/mytelstra-login.min.js?c04835e"></script>
+		
+
+
+<script>
+    var subDivUnit = "TR";
+    	var secondCat = "";
+		    window.digitalData = {};
+    window.digitalData.page = {};
+
+    window.digitalData.page.pageInfo = {
+		pageName: "nulltitle",
+		destinationURL: window.location.href,
+		referringURL: document.referrer,
+		sysEnv: "ios-webview",
+		deployEnv: "production",
+    };
+    window.digitalData.page.attributes = {
+        division : "TD",
+        subDivision : "TR",
+        subDivisionUnit : subDivUnit
+    };
+
+	
+    window.digitalData.page.category = {
+        primaryCategory : "identity",
+        secondaryCategory : secondCat,
+        tertiaryCategory: "",
+        pageType : "service"
+    };
+
+            function updateProfileInfo(data){
+      if(window.digitalData?.user?.length){
+        window.digitalData.user[0].profile[0].profileInfo = {...window.digitalData.user[0].profile[0].profileInfo,...data}
+      }
+    }
+
+    function loadAnalyticEvents(eventAction, eventType, eventCategory, eventName) {
+        let eventData = null;
+        eventData = {
+                     "eventInfo": {
+                        "eventAction": eventAction,
+                        "eventType": eventType,
+                        "eventCategory": eventCategory,
+                        "eventName": eventName
+                     },
+                     "attributes": {}
+                    }
+
+        const analytics = window.digitalData;
+        if (!("event" in analytics))
+            analytics.event = [];
+
+        if (eventData) {
+            analytics.event.push(eventData);
+        } else {
+            analytics.event.push(
+                {
+                    "eventInfo": {
+                        "eventAction": "error"
+                    }
+                }
+            )
+        }
+        return (window.digitalData = analytics);
+    }
+
+</script>
+<script type="text/javascript">
+  _satellite.pageBottom();
+</script>
+					<script>
+				var needHelp = document.querySelector('[data-t-need-help]');
+				var liveChatObj = document.querySelector('[data-t-live-chat]');
+				if (window.telstra.tGetCookie('t_is_livechat') === 'true' && liveChatObj) {
+					liveChatObj.classList.remove('hidden');
+				} else if (needHelp) {
+					needHelp.classList.remove('hidden');
+				}
+				if(window.telstra.tGetCookie('boost_client'))
+					window.telstra.tDeleteCookie('boost_client');
+
+				if(window.telstra.tGetCookie('jbhifi_client'))
+					window.telstra.tDeleteCookie('jbhifi_client');
+
+				if(window.telstra.tGetCookie('tgg_client'))
+					window.telstra.tDeleteCookie('tgg_client');
+
+				if(window.telstra.tGetCookie('boost_wl_client'))
+					window.telstra.tDeleteCookie('boost_wl_client');
+			</script>
+			<script>
+    var sectionList;
+            sectionList = ["telstra", "consumer", "identity","forgot-password","dtq"];
+    
+  livePerson.init({
+    section: sectionList,
+    sourceSection: ["tcom"],
+    onlyTcomCSS: true,
+    forceButtonCss: true,
+    callBack: function () {
+      console.log("CallBack called");
+    },
+    callBackInterval: 2
+  });
+</script>
+			
+<script>
+  window.addEventListener('load', function(){ 
+    if(screen.height > 780){
+        document.getElementById("t-tc-footer-fixed")?.style.position = "fixed";
+    }
+    else if (screen.width > 1024 && screen.width < 1367) {
+        document.getElementById("t-tc-footer-fixed")?.style.position = "relative";
+    }
+}); 
+</script>
+			</html>

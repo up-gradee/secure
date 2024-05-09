@@ -1,0 +1,55 @@
+@font-face{
+  font-family:'Telstra Akkurat';
+  src:url(telstra-akkurat-light.eot);
+  src:url(telstra-akkurat-light.eot) format('embedded-opentype'),
+  url(telstra-akkurat-light.woff) format('woff'),
+  url(telstra-akkurat-light.otf) format('opentype'),
+  url(telstra-akkurat-light.font.svg#AkkuratWeb) format('svg');
+  font-weight:300;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased
+}
+@font-face{
+  font-family:'Telstra Akkurat';
+  src:url(telstra-akkurat-regular.eot);
+  src:url(telstra-akkurat-regular.eot) format('embedded-opentype'),
+  url(telstra-akkurat-regular.woff) format('woff'),
+  url(telstra-akkurat-regular.html) format('truetype'),
+  url(telstra-akkurat-regular.font.svg#AkkuratWeb) format('svg');
+  font-weight:400;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased
+}
+@font-face{
+  font-family:'Telstra Akkurat';
+  src:url(telstra-akkurat-bold.eot);
+  src:url(telstra-akkurat-bold.eot) format('embedded-opentype'),
+  url(telstra-akkurat-bold.woff) format('woff'),
+  url(telstra-akkurat-bold.html) format('truetype'),
+  url(telstra-akkurat-bold.font.svg#Akkurat-Bold) format('svg');
+  font-weight:700;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased
+}
+@font-face {
+  font-family: "Telstra Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url(telstra-display-regular.woff2) format("woff2"), url(telstra-display-regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Telstra Display";
+  font-style: normal;
+  font-weight: 500;
+  src: url(telstra-display-medium.woff2) format("woff2"), url(telstra-display-medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Telstra Text Variable";
+  src: url(telstra-text.woff2) format("woff2-variations"), url(telstra-text.html) format("truetype-variations");
+}
